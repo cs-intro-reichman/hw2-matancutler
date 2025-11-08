@@ -13,12 +13,15 @@ public class TimeCalc {
         if(newM<10){
             NewM = "0" + newM;
         }
+        else
+        {
+           NewM = "" + newM; 
+        }
         if(newH<10){
-            System.out.println("0" + newH + ": " + NewM);
+            System.out.println("0" + newH + ":" + NewM);
         }
         else{
             System.out.println(newH + ":" + NewM);
         }
-       
     }
 }
