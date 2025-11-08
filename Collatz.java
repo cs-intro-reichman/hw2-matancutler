@@ -17,12 +17,11 @@ public class Collatz {
 				while ((sum != 1) || (tick == true))
 				{
 					tick = false;
-					System.out.print(", ");
 					if(sum%2 == 0)
 					sum = sum / 2;
 					else
 					sum = (sum*3) + 1;
-					System.out.print(sum);
+					System.out.print(" " + sum);
 					count ++;
 				}
 				System.out.println(" (" + count + ")");
