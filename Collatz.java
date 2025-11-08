@@ -7,7 +7,7 @@ public class Collatz {
 		int count = 1;
 		boolean tick = true;
 		if (mode.equals("concise") || mode.equals("c"))
-			System.out.println("Every one of the first " + seed + " hailsone sequences reached 1.");
+			System.out.println("Every one of the first " + seed + " hailstone sequences reached 1.");
 		else
 		{
 			for (int i = 1; i <= seed; i++)
@@ -28,7 +28,7 @@ public class Collatz {
 				System.out.println(" (" + count + ")");
 				count = 1;
 			}
-			System.out.println("Every one of the first " + seed + " hailsone sequences reached 1.");
+			System.out.println("Every one of the first " + seed + " hailstone sequences reached 1.");
 		}
 	}
 }

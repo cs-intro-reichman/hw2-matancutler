@@ -17,6 +17,6 @@ public class CalcPi {
 			sign = !sign;
 			count ++;
 		}
-		System.out.println("pi, approximated:	 " + sum*4);
+		System.out.println("pi, approximated: " + sum*4);
 	}
 }
