@@ -11,7 +11,7 @@ public class Cheers {
                 else
                  System.out.println("Give me a " + word.charAt(i) + ": " + word.charAt(i) + "!");
          } 
-         for (int i = 0; i<=N ; i++){
+         for (int i = 0; i<N ; i++){
                 System.out.println(word + "!!!");
          }
         }
