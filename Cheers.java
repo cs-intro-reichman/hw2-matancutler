@@ -3,7 +3,7 @@ public class Cheers {
         public static void main(String[] args) {
          String word = args[0];
          int N = Integer.parseInt(args[1]);
-         String vowels = "aeiouyAEIOUY";
+         String vowels = "aAeEfFhHiIlLmMnNoOrRsSxX";
 
          for (int i = 0 ; i < word.length() ; i ++){
                 if (vowels.indexOf(word.charAt(i)) != -1)
